@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block title %}
+    About
+    {% endblock title %}
+{% block body %}
+
+
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    h1 {
+      color: #343a40;
+    }
+
+    p {
+      color: #6c757d;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+    
+  </style>
+</head>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <img
+        src="../static/faizan.JPG"
+        class="img-fluid"
+        alt="Faizan Siddiqui"
+      />
+    </div>
+    <div class="col-md-8">
+      <h1>About Me</h1>
+      <p>
+        Hello! My name is Faizan Siddiqui. I am the creator of this Todo List
+        application. I am passionate about web development and Data Analysis and
+        have experience in various technologies including HTML, CSS, JavaScript,
+        Flask, Git, Python, C++ and more.
+      </p>
+      <p>
+        I graduated from Chameli Devi Group of Institutions with a B.Tech in
+        Computer Science Engineering. I enjoy working on projects that allow me
+        to learn and grow as a developer.
+      </p>
+      <p>
+        You can find my work on
+        <a href="https://github.com/erfaizan2001">GitHub</a> and connect with me
+        on
+        <a href="https://www.linkedin.com/in/faizan-siddiqui-2001">LinkedIn</a>.
+      </p>
+      <p>Email: <a href="mailto:er.faizan2001@gmail.com">er.faizan2001@gmail.com</a></p>
+                <p>Phone: <a href="tel:+918770097710">+91 87700 97710</a></p>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+{% endblock body %}
